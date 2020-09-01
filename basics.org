@@ -1,0 +1,69 @@
+#+TITLE: Basics
+#+OPTIONS: toc:nil
+
+Levels in a file
+
+Use Alt-Left/Right (arrow) keys to change indentation.
+Use Ctrl-C,Ctrl-W to move subtree to another location.
+
+* Top Level Title
+** Second level
+*** Third level
+**** Fourth level
+** Going back to 2
+Text at L2
+***** Fifth
+This is text at level-5
+Putting text at an arbitrary indentation level doesn't seem possible though
+
+* Formatting
+*Bold*, /italics/, =verbatim=, +strikethrough+
+
+- List item A (press Ctrl-Enter at this point to continue the list)
+- B
+- C
+
+[[https://mixedquantum.com][My website!]] - Add links using Ctrl-C Ctrl-l over existing selected text or at the cursor
+
+* Tables
+
+Very powerful
+
+| Col1   | Col2        |
+|--------+-------------|
+| Value1 | Value2      |
+| Text   | Description |
+| Car    | Engines     |
+
+* Source code
+
+Enter =<s= then tab to insert a source code block
+
+#+BEGIN_SRC python
+if __name__ == "__main__":
+    print("Hello world!")
+#+END_SRC
+
+* TODOs!
+
+Ctrl-c Ctrl-t to change state. There's a package that adds timestamps to transitions, look into that.
+
+Cycling through states can also be done with Shift-Right/Left (arrow) keys. If done on a line that doesn't have a TODO or equivalent tag, it wil add one!
+
+Ctrl-c Ctrl-d allows adding a deadline
+
+Pressing Enter on an item puts it in the DONE state.
+Alt-Up/Down keys used for movement of items here too
+
+With a bit of extension, this can possibly serve as a replacement to kanbanflow for me.
+
+** DONE Prefixing titles with "TODO" puts it in a different colour
+** TODO Ctrl+Enter to add entries to TODO lists
+DEADLINE: <2020-09-14 Mon>
+** TODO This is another item
+
+* Misc
+
+Use Ctrl-c Ctrl-e to export the file to various formats.
+
+Ctrl-c Ctrl-e h o to export and open an HTML version
