@@ -1,0 +1,15 @@
+#+SEQ_TODO:  TODO(t) HOLD(h) DEPENDENCY(d) | DONE(D) SUSPENDED(s)
+
+#+TITLE: Todos
+#+OPTIONS: toc:nil
+
+
+A custom sequence of TODO->DOING->DONE can be declared at the top of the doc. You need to put the cursor on that line and press Ctrl-c Ctrl-c to refresh the local setup. There's only two types of states separated by a pipe symbol (ongoing v/s. end-state)
+
+** TODO First item on the list
+*** SUSPENDED These can be nested as well, and the best thing is that you can't put the top-level item in an end-state unless all items underneath are also in an end state themselves.
+** TODO Another thing to do
+** TODO One last thing
+
+* Another list
+** TODO Have to do this as well
