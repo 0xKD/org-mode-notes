@@ -1,0 +1,21 @@
+#+TITLE: Agenda
+#+OPTIONS: toc:nil
+
+Use Ctrl-c Ctrl-s to set (a schedule) date on a TODO item. This indicates a start date of sorts.
+Ctrl-c Ctrl-d can additionally be used to set a deadline.
+
+Both these options opens up a calendar and a date can be selected (using Shift+arrow keys)
+
+Use Ctrl-c [ to add the current file to the top of the agenda file list, otherwise you won't see anything in the agenda view.
+
+Agenda can be viewed using SPC o a (in Doom emacs), and you can go back and forth in time using =[= and =]= keys.
+There might not be a keyboard shortcut for every action in Doom emacs so click on the bottom right corner text (Major mode) and it will open up a menu that has several options.
+
+
+* Things to do
+** TODO First item to be done soon
+SCHEDULED: <2020-09-02 Wed> DEADLINE: <2020-09-14 Mon>
+** TODO Another thing that can be done next month
+SCHEDULED: <2020-10-04 Sun>
+** TODO This thing's gonna go on for a few hours
+SCHEDULED: <2020-09-04 Fri>
