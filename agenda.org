@@ -19,3 +19,18 @@ SCHEDULED: <2020-09-02 Wed> DEADLINE: <2020-09-14 Mon>
 SCHEDULED: <2020-10-04 Sun>
 ** TODO This thing's gonna go on for a few hours
 SCHEDULED: <2020-09-04 Fri>
+
+* Repeating tasks
+** TODO Gotta do this every week
+SCHEDULED: <2020-09-19 Sat +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2020-09-09 Wed 15:59]
+:END:
+- State "DONE"       from "TODO"       [2020-09-09 Wed 15:59]
+Add a =+1w= within the schedule date to make a task to repeat each week. Marking it done will show the next date it is due with all dates it has been already marke done for underneath.
+** TODO Only do this in the future
+SCHEDULED: <2020-09-01 Tue ++1w>
+Tasks which have =++= will only schedule tasks in the future, skipping any dates in the past.
+** TODO Relative delta in schedules
+SCHEDULED: <2020-09-03 Thu .+1w>
+By default, the next date for repeating task is the delta from the scheduled date. Adding a =.= makes the next scheduled date according to the date it was completed on. If a weekly task was scheduled for today but I completed it 2 days later. The next task will be 1 week from when I completed it. (And not 5 days later as originally scheduled)
