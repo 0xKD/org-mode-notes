@@ -1,0 +1,15 @@
+#+TITLE: Checklists
+
+
+Ctrl-c Ctrl-c to toggle state. Ctrl-enter to add a new entry
+Add =[/]= or =[%]= in the line above the checklist level to get completion summary.
+Either as done/total or as a percentage figure.
+
+
+* Introduction to Checklists
+** This is plan for today [100%]
+- [X] Another thing to do
+- [X] Gotta go fast
+** Plan for tomorrow [1/2]
+- [X] Go fishing
+- [ ] Cook fish
