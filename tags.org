@@ -1,0 +1,14 @@
+#+TITLE: Tags
+#+TAGS: { @work @personal } @project @quick
+
+Official manual here: https://orgmode.org/manual/Setting-Tags.html#Setting-Tags
+
+Define tags using the \#+TAGS: directive. Group exclusive tags in curly braces.
+
+Set tags using =SPC m q= or C-c C-q. Use C-c C-c to modify tags on the current line.
+C-c C-c is also be used to refresh the local tag setup if cursor is on the \#+TAGS: line
+
+
+* Today's things
+** TODO Review PR \#1337 :@work:@quick:
+** TODO Read Books :@personal:
