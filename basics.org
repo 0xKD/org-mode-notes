@@ -1,6 +1,6 @@
 #+TITLE: Basics
 #+OPTIONS: toc:nil
-
+#+STARTUP: logdrawer
 Levels in a file
 
 Use Alt-Left/Right (arrow) keys to change indentation.
@@ -61,6 +61,30 @@ With a bit of extension, this can possibly serve as a replacement to kanbanflow 
 ** TODO Ctrl+Enter to add entries to TODO lists
 DEADLINE: <2020-09-14 Mon>
 ** TODO This is another item
+
+* Drawers
+:thisisdrawer:
+Everything between =:<somename>:= and =:END:= makes a drawer, which is just a collapsible block from the looks of it.
+:END:
+
+* Logbook
+For each section you can mantain notes in the special =:LOGBOOK:= drawer. Quite handy.
+To add notes to the =:LOGBOOK:= and not directly to the body requires startup option =#+STARTUP: logdrawer=
+You can also change it at a global level by customizing the =org-log-into-drawer= variable.
+Logbook contents aren't rendered (in HTML .e.g)
+
+:LOGBOOK:
+- Note taken on [2020-10-02 Fri 12:55] \\
+  This is a note added using =C-c C-z=
+  It will go into the special =:LOGBOOK:= drawer present in the same section as the cursor
+  If the logbook drawer isn't present, one will be created.
+:END:
+** Subsection
+:LOGBOOK:
+- Note taken on [2020-10-02 Fri 12:57] \\
+  hello another note!
+:END:
+Attempting to add another note here...
 
 * Misc
 
