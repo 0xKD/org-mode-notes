@@ -1,0 +1,12 @@
+
+Archived entries from file /home/cusred/github/org-mode-notes/todos.org
+
+
+* DONE This is another task that I've already completed
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-10-03 Sat 12:26
+:ARCHIVE_FILE: ~/github/org-mode-notes/todos.org
+:ARCHIVE_OLPATH: More stuff
+:ARCHIVE_CATEGORY: todos
+:ARCHIVE_TODO: DONE
+:END:
